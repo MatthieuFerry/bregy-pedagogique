@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="700" viewBox="0 0 800 700" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fond avec hauteur augmentée -->
+    <rect x="0" y="0" width="800" height="700" fill="#f9f9f9"/>
+    
+    <!-- Titre -->
+    <text x="400" y="50" font-family="'Segoe UI', sans-serif" font-size="24" fill="#3a5a78" text-anchor="middle" font-weight="bold">
+        Le double axe fondateur des sociétés modernes
+    </text>
+
+    <!-- Quadrants et leurs caractéristiques - repositionnés et agrandis -->
+    <!-- Quadrant 1: Nation forte / Industrie forte -->
+    <g>
+        <circle cx="580" cy="180" r="100" fill="#f4d35e" fill-opacity="0.3" stroke="#f4d35e" stroke-width="2"/>
+        <text x="580" y="155" font-family="'Segoe UI', sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">
+            Souverainisme économique
+        </text>
+        <text x="580" y="185" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            • Protectionnisme
+        </text>
+        <text x="580" y="210" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            • Réindustrialisation nationale
+        </text>
+    </g>
+    
+    <!-- Quadrant 2: Nation faible / Industrie forte -->
+    <g>
+        <circle cx="580" cy="420" r="100" fill="#ee964b" fill-opacity="0.3" stroke="#ee964b" stroke-width="2"/>
+        <text x="580" y="395" font-family="'Segoe UI', sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">
+            Libéralisme mondial
+        </text>
+        <text x="580" y="425" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            • Mondialisation
+        </text>
+        <text x="580" y="450" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            • Dérégulation
+        </text>
+    </g>
+    
+    <!-- Quadrant 3: Nation forte / Industrie faible -->
+    <g>
+        <circle cx="220" cy="180" r="100" fill="#3a5a78" fill-opacity="0.3" stroke="#3a5a78" stroke-width="2"/>
+        <text x="220" y="155" font-family="'Segoe UI', sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">
+            Régulation étatique
+        </text>
+        <text x="220" y="185" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            • Service public
+        </text>
+        <text x="220" y="210" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            • Protection sociale
+        </text>
+    </g>
+    
+    <!-- Quadrant 4: Nation faible / Industrie faible -->
+    <g>
+        <circle cx="220" cy="420" r="100" fill="#0077cc" fill-opacity="0.3" stroke="#0077cc" stroke-width="2"/>
+        <text x="220" y="395" font-family="'Segoe UI', sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">
+            Localisme / Alternatives
+        </text>
+        <text x="220" y="425" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            • Décroissance
+        </text>
+        <text x="220" y="450" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            • Autonomie locale
+        </text>
+    </g>
+    
+    <!-- Zone centrale d'émergence des objets de discours - Agrandie -->
+    <circle cx="400" cy="300" r="70" fill="#333" fill-opacity="0.1" stroke="#333" stroke-width="2" stroke-dasharray="5,5"/>
+    
+    <text x="400" y="270" font-family="'Segoe UI', sans-serif" font-size="16" fill="#333" text-anchor="middle" font-weight="bold">
+        Objets de discours
+    </text>
+    
+    <!-- Textes dans la zone centrale mieux espacés et disposés verticalement -->
+    <text x="400" y="300" font-family="'Segoe UI', sans-serif" font-size="13" fill="#333" text-anchor="middle">
+        Gauche/Droite
+    </text>
+    <text x="400" y="325" font-family="'Segoe UI', sans-serif" font-size="13" fill="#333" text-anchor="middle">
+        Public/Privé
+    </text>
+    <text x="400" y="350" font-family="'Segoe UI', sans-serif" font-size="13" fill="#333" text-anchor="middle">
+        Réguler/Innover
+    </text>
+    
+    <!-- Axes principaux -->
+    <line x1="100" y1="300" x2="700" y2="300" stroke="#333" stroke-width="2"/>
+    <line x1="400" y1="100" x2="400" y2="500" stroke="#333" stroke-width="2"/>
+    
+    <!-- Flèches des axes -->
+    <polygon points="700,300 690,290 690,310" fill="#333"/>
+    <polygon points="400,100 390,110 410,110" fill="#333"/>
+    
+    <!-- Labels des axes - Repositionnés -->
+    <text x="400" y="80" font-family="'Segoe UI', sans-serif" font-size="16" fill="#3a5a78" text-anchor="middle" font-weight="bold">
+        Axe discursif (Logique industrielle)
+    </text>
+    
+    <!-- Texte de l'axe horizontal positionné à droite comme demandé -->
+    <text x="690" y="330" font-family="'Segoe UI', sans-serif" font-size="16" fill="#3a5a78" text-anchor="end" font-weight="bold">
+        Axe territorial (État-nation)
+    </text>
+    
+    <!-- Légende -->
+    <rect x="150" y="620" width="500" height="60" fill="#f5f5f5" rx="5" ry="5"/>
+    <text x="400" y="645" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+        Les tensions entre ces deux axes fondateurs définissent l'intégralité du discours
+    </text>
+    <text x="400" y="665" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+        social et politique de nos sociétés modernes.
+    </text>
+</svg>

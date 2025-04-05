@@ -1,0 +1,62 @@
+{
+    "etat-nation": {
+        "title": "État-nation",
+        "definition": "Structure politique fondée sur un territoire délimité par des frontières administratives, où l'État est l'objet politique en charge de gérer ce territoire et la Nation est l'ensemble des êtres relevant de ce territoire.",
+        "author": "Concept analysé par Alain Brégy",
+        "details": "L'État-nation est l'une des constructions fondamentales de la modernité politique apparue entre le XVIIIe et le XIXe siècle. Brégy montre comment cette structure territoriale est aujourd'hui mise à l'épreuve par la déterritorialisation numérique de nos existences."
+    },
+    "veridiction": {
+        "title": "Système de véridiction",
+        "definition": "Ensemble des règles et mécanismes qui, à une époque donnée, déterminent ce qui peut être dit comme vrai et comment le dire. Chaque époque produit sa propre manière de dire le vrai.",
+        "author": "Concept inspiré de Michel Foucault",
+        "details": "Foucault montre dans 'Les Mots et les Choses' comment entre 1750 et 1830, toute la pensée moderne s'est construite, en produisant un nouveau système véridictionnel (comment le vrai doit être dit)."
+    },
+    "anamorphose": {
+        "title": "Réalité anamorphique",
+        "definition": "Communauté qui ne devient lisible et reconnaissable qu'à partir d'un point de vue unique. Pour quiconque ne se trouve pas au bon endroit, son discours apparaît comme une masse d'informations désordonnées, sans sens.",
+        "author": "Concept développé par Alain Brégy",
+        "details": "Une anamorphose visuelle est une image déformée qui ne devient reconnaissable que depuis un angle spécifique. Brégy transpose ce concept aux communautés humaines contemporaines: leurs discours et pratiques ne font sens que pour ceux qui partagent le même 'angle de vision'."
+    },
+    "deterritorialisation": {
+        "title": "Déterritorialisation",
+        "definition": "Processus par lequel nos existences se détachent progressivement du territoire physique pour se développer dans des espaces virtuels et communautaires qui transcendent les frontières géographiques traditionnelles.",
+        "author": "Concept inspiré de Deleuze et Guattari",
+        "details": "Internet nous a déterritorialisés: nous nous informons, travaillons, rencontrons, achetons, échangeons en ligne. Notre existence sociale n'est plus limitée à un territoire physique partagé."
+    },
+    "dire-vrai": {
+        "title": "Dire-vrai",
+        "definition": "Façon dont une société définit et énonce ce qui est considéré comme vrai. La vérité n'existe pas indépendamment des discours qui la portent.",
+        "author": "Concept inspiré de Michel Foucault",
+        "details": "Le 'dire-vrai' d'une époque détermine ses objets légitimes de discours, les modalités acceptables d'énonciation et les critères qui distinguent le vrai du faux."
+    },
+    "secousse-sismique": {
+        "title": "Secousse sismique",
+        "definition": "Événement, personnage ou phénomène qui signale un changement d'époque en cours, même s'il apparaît initialement incompréhensible ou chaotique.",
+        "author": "Métaphore utilisée par Alain Brégy",
+        "details": "Pour Brégy, des figures comme Trump ou Musk ne sont pas simplement des anomalies ou des accidents de l'histoire, mais des signaux d'un changement de paradigme sociétal."
+    },
+    "musko-trumpisme": {
+        "title": "Musko-trumpisme",
+        "definition": "Phénomène politique et technologique incarné par des figures comme Trump et Musk, qui signale une remise en question des fondements de l'État-nation par une nouvelle forme de pouvoir déterritorialisé.",
+        "author": "Concept développé par Alain Brégy",
+        "details": "Le musko-trumpisme n'est pas réductible au fascisme classique. Il représente une nouvelle configuration du pouvoir qui exploite les technologies numériques et remet en question les institutions traditionnelles."
+    },
+    "communaute-anamorphique": {
+        "title": "Communauté anamorphique",
+        "definition": "Groupe social non défini par un territoire physique mais par un ensemble de pratiques, de valeurs et de discours partagés, constituant une nouvelle forme de 'communauté de destin'.",
+        "author": "Concept développé par Alain Brégy",
+        "details": "Ces communautés transcendent les frontières nationales: un agriculteur bio français peut se sentir plus proche d'un homologue péruvien que de son voisin céréalier industriel. Elles constituent des 'réalités complètes' pour leurs membres."
+    },
+    "communs": {
+        "title": "Communs",
+        "definition": "Biens gérés collectivement par une communauté selon des règles établies horizontalement, où chaque utilisateur détient sa part dans la gestion et la responsabilité de la maintenance.",
+        "author": "Concept analysé par Elinor Ostrom",
+        "details": "Ostrom a démontré, contrairement à la 'Tragédie des Communs' de Hardin, que des ressources peuvent être gérées efficacement en commun si des règles précises sont établies et acceptées par l'ensemble de la communauté utilisatrice."
+    },
+    "irrégularité-systémique": {
+        "title": "Irrégularité systémique",
+        "definition": "Événement imprévu ou irrationnel qui survient dans un système et qui peut soit être résorbé, soit provoquer une réorganisation complète du système avec de nouvelles règles.",
+        "author": "Concept inspiré de James Gleick",
+        "details": "Dans sa 'Théorie du Chaos', Gleick montre que face aux irrégularités, un système n'a que deux options: les résorber ou se transformer en un système radicalement différent."
+    }
+}

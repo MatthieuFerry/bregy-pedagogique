@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Fond -->
+    <rect x="0" y="0" width="800" height="600" fill="#f9f9f9"/>
+    
+    <!-- Titre -->
+    <text x="400" y="50" font-family="'Segoe UI', sans-serif" font-size="24" fill="#3a5a78" text-anchor="middle" font-weight="bold">
+        Le concept d'anamorphose sociale
+    </text>
+    
+    <!-- Sous-titre explicatif -->
+    <text x="400" y="80" font-family="'Segoe UI', sans-serif" font-size="16" fill="#666" text-anchor="middle" font-style="italic">
+        Une même réalité vue différemment selon le point de vue
+    </text>
+    
+    <!-- Objet anamorphique (cercle déformé qui devient carré selon l'angle) -->
+    <g transform="translate(400, 250)">
+        <!-- Forme de base (étrange/confuse) -->
+        <path d="M-150,0 C-100,-100 100,-100 150,0 C100,100 -100,100 -150,0 Z" fill="#ee964b" fill-opacity="0.3" stroke="#ee964b" stroke-width="2"/>
+        
+        <!-- Lignes de perspective -->
+        <line x1="-150" y1="0" x2="-250" y2="-100" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+        <line x1="150" y1="0" x2="250" y2="-100" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+        <line x1="-150" y1="0" x2="-250" y2="100" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+        <line x1="150" y1="0" x2="250" y2="100" stroke="#333" stroke-width="1" stroke-dasharray="5,5"/>
+    </g>
+    
+    <!-- Points de vue différents -->
+    <!-- Point de vue 1 -->
+    <g transform="translate(150, 250)">
+        <circle cx="0" cy="0" r="60" fill="#3a5a78" fill-opacity="0.3" stroke="#3a5a78" stroke-width="2"/>
+        <circle cx="0" cy="0" r="15" fill="#3a5a78"/>
+        <text x="0" y="-75" font-family="'Segoe UI', sans-serif" font-size="16" fill="#3a5a78" text-anchor="middle" font-weight="bold">
+            Point de vue A
+        </text>
+        
+        <!-- Ce que voit le point de vue A -->
+        <g transform="translate(0, -30)">
+            <circle cx="0" cy="0" r="20" fill="#3a5a78" fill-opacity="0.7"/>
+            <text x="0" y="5" font-family="'Segoe UI', sans-serif" font-size="12" fill="white" text-anchor="middle">
+                ?
+            </text>
+        </g>
+    </g>
+    
+    <!-- Point de vue 2 -->
+    <g transform="translate(650, 250)">
+        <circle cx="0" cy="0" r="60" fill="#ee964b" fill-opacity="0.3" stroke="#ee964b" stroke-width="2"/>
+        <circle cx="0" cy="0" r="15" fill="#ee964b"/>
+        <text x="0" y="-75" font-family="'Segoe UI', sans-serif" font-size="16" fill="#ee964b" text-anchor="middle" font-weight="bold">
+            Point de vue B
+        </text>
+        
+        <!-- Ce que voit le point de vue B -->
+        <g transform="translate(0, -30)">
+            <rect x="-20" y="-20" width="40" height="40" fill="#ee964b" fill-opacity="0.7"/>
+        </g>
+    </g>
+    
+    <!-- Point de vue 3 -->
+    <g transform="translate(400, 450)">
+        <circle cx="0" cy="0" r="60" fill="#f4d35e" fill-opacity="0.3" stroke="#f4d35e" stroke-width="2"/>
+        <circle cx="0" cy="0" r="15" fill="#f4d35e"/>
+        <text x="0" y="75" font-family="'Segoe UI', sans-serif" font-size="16" fill="#f4d35e" text-anchor="middle" font-weight="bold">
+            Point de vue C
+        </text>
+        
+        <!-- Ce que voit le point de vue C -->
+        <g transform="translate(0, 30)">
+            <polygon points="0,-20 20,20 -20,20" fill="#f4d35e" fill-opacity="0.7"/>
+        </g>
+    </g>
+    
+    <!-- Légendes explicatives - CORRIGÉES POUR ÉVITER LES CHEVAUCHEMENTS -->
+    <g transform="translate(150, 380)">
+        <rect x="-120" y="-20" width="240" height="50" fill="#f5f5f5" rx="5" ry="5" opacity="0.8"/>
+        <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            "Je vois une masse
+        </text>
+        <text x="0" y="20" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            d'informations confuses"
+        </text>
+    </g>
+    
+    <g transform="translate(650, 380)">
+        <rect x="-120" y="-20" width="240" height="50" fill="#f5f5f5" rx="5" ry="5" opacity="0.8"/>
+        <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            "Je vois clairement
+        </text>
+        <text x="0" y="20" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            un carré"
+        </text>
+    </g>
+    
+    <!-- Repositionné pour éliminer le chevauchement -->
+    <g transform="translate(400, 150)">
+        <rect x="-120" y="-20" width="240" height="50" fill="#f5f5f5" rx="5" ry="5" opacity="0.8"/>
+        <text x="0" y="0" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            "Je vois clairement
+        </text>
+        <text x="0" y="20" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+            un triangle"
+        </text>
+    </g>
+    
+    <!-- Flèches pour clarifier les relations entre points de vue et perceptions -->
+    <line x1="400" y1="170" x2="400" y2="390" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="400,390 396,380 404,380" fill="#999"/>
+    
+    <line x1="650" y1="330" x2="650" y2="370" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="650,370 646,360 654,360" fill="#999"/>
+    
+    <line x1="150" y1="330" x2="150" y2="370" stroke="#999" stroke-width="2" stroke-dasharray="5,5"/>
+    <polygon points="150,370 146,360 154,360" fill="#999"/>
+    
+    <!-- Explication en bas -->
+    <rect x="100" y="520" width="600" height="60" fill="#f5f5f5" rx="5" ry="5"/>
+    <text x="400" y="545" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+        Une communauté anamorphique partage un "angle de vision" qui rend lisible ce qui
+    </text>
+    <text x="400" y="565" font-family="'Segoe UI', sans-serif" font-size="14" fill="#333" text-anchor="middle">
+        paraît chaotique ou absurde pour les membres d'autres communautés.
+    </text>
+</svg>
